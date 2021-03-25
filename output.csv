@@ -1,95 +1,107 @@
-Hostname, Instance ID , Host Command output
-,  , , ,  , 
-Hostname, Instance ID , Host Command output
-,  , , ,  , 
-,  , , ,  , 
-Hostname, Instance ID , Host Command output
-Prod-Vault, i-0f6204da2d58e41a9,Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        960M     0  960M   0% /dev
-tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  356K  978M   1% /run
-tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  4.4G   96G   5% /
-print_etc_host****
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6 
-Prod-Pipeline, i-045a77d617d28b819,Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        960M     0  960M   0% /dev
-tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  560K  977M   1% /run
-tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  5.5G   95G   6% /
-print_etc_host****
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6 
-Hostname, Instance ID , Host Command output
-Prod-Vault, i-0f6204da2d58e41a9,Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        960M     0  960M   0% /dev
-tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  356K  978M   1% /run
-tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  4.4G   96G   5% /
-print_etc_host****
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6 
-Prod-Pipeline, i-045a77d617d28b819,Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        960M     0  960M   0% /dev
-tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  560K  977M   1% /run
-tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  5.5G   95G   6% /
-print_etc_host****
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6 
-Hostname, Instance ID , Host Command output
-Prod-Vault,[
+Hostname, Instance ID , Host Command output , Tags
+Prod-Vault,i-0f6204da2d58e41a9,[
     "Filesystem      Size  Used Avail Use% Mounted on
 devtmpfs        960M     0  960M   0% /dev
 tmpfs           978M     0  978M   0% /dev/shm
 tmpfs           978M  356K  978M   1% /run
 tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  4.4G   96G   5% /
-print_etc_host****
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6
-"
-] 
-Prod-Pipeline,[
-    "Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        960M     0  960M   0% /dev
-tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  560K  977M   1% /run
-tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  5.5G   95G   6% /
-print_etc_host****
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6
-"
-] 
-Hostname, Instance ID , Host Command output
-Prod-Vault, 
-Hostname, Instance ID , Host Command output
-Prod-Vault,[
-    "Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        960M     0  960M   0% /dev
-tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  356K  978M   1% /run
-tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  4.4G   96G   5% /
+/dev/nvme0n1p1  100G  4.6G   96G   5% /
 ****_print_etc_host_****
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost6 localhost6.localdomain6
 "
-] 
-Prod-Pipeline,[
+],[
+    {
+        "Key": "AppID",
+        "Value": "TBD"
+    },
+    {
+        "Key": "Backup",
+        "Value": "Daily35"
+    },
+    {
+        "Key": "Environment",
+        "Value": "Production"
+    },
+    {
+        "Key": "Name",
+        "Value": "Prod-Vault"
+    },
+    {
+        "Key": "Patch Group",
+        "Value": "Production-Patching"
+    },
+    {
+        "Key": "SSM Target Tag",
+        "Value": "Target-Prod-Vault"
+    },
+    {
+        "Key": "SSMInventory",
+        "Value": "true"
+    },
+    {
+        "Key": "SSO",
+        "Value": "Carter.Hass"
+    },
+    {
+        "Key": "ServiceProvider",
+        "Value": "Rackspace"
+    },
+    {
+        "Key": "Team",
+        "Value": "MPC Build Automation Engineers"
+    }
+], 
+Prod-Pipeline,i-045a77d617d28b819,[
     "Filesystem      Size  Used Avail Use% Mounted on
 devtmpfs        960M     0  960M   0% /dev
 tmpfs           978M     0  978M   0% /dev/shm
-tmpfs           978M  560K  977M   1% /run
+tmpfs           978M  576K  977M   1% /run
 tmpfs           978M     0  978M   0% /sys/fs/cgroup
-/dev/nvme0n1p1  100G  5.5G   95G   6% /
+/dev/nvme0n1p1  100G  5.7G   95G   6% /
 ****_print_etc_host_****
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost6 localhost6.localdomain6
 "
-] 
+],[
+    {
+        "Key": "AppID",
+        "Value": "TBD"
+    },
+    {
+        "Key": "Backup",
+        "Value": "Daily35"
+    },
+    {
+        "Key": "Environment",
+        "Value": "Production"
+    },
+    {
+        "Key": "Name",
+        "Value": "Prod-Pipeline"
+    },
+    {
+        "Key": "Patch Group",
+        "Value": "Production-Patching"
+    },
+    {
+        "Key": "SSM Target Tag",
+        "Value": "Target-Prod-Pipeline"
+    },
+    {
+        "Key": "SSMInventory",
+        "Value": "true"
+    },
+    {
+        "Key": "SSO",
+        "Value": "Carter.Hass"
+    },
+    {
+        "Key": "ServiceProvider",
+        "Value": "Rackspace"
+    },
+    {
+        "Key": "Team",
+        "Value": "MPC Build Automation Engineers"
+    }
+], 
